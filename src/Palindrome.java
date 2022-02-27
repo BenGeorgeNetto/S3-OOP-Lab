@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 class Palindrome {
     void isPalindrome(String str) {
         String strL = str.toLowerCase();
         int i = 0, j = str.length() - 1;
+
+        System.out.println();
 
         while(i < j) {
             if(strL.charAt(i) != strL.charAt(j)) {
@@ -19,12 +23,16 @@ class Palindrome {
 
 class PalindromeMain {
     public static void main(String[] args) {
-        String str1 = "Malayalam";
-        String str2 = "English";
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a string: ");
+        String str = sc.nextLine();
 
         Palindrome p = new Palindrome();
 
-        p.isPalindrome(str1);
-        p.isPalindrome(str2);
+        p.isPalindrome(str);
+
+        sc.close();
     }
 }
+
