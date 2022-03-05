@@ -8,6 +8,7 @@ class GarbageCollectorTest {
 
     public void finalize()  {
         System.out.println("Garbage Collector called");
+        System.out.println(this + " address deleted");
     }
 }
 
