@@ -10,7 +10,7 @@
 3. [Matrix Multiplication](src/MatrixMultiplication.java)
 4. [Inheritance](src/Employee.java)
 5. [Polymorphism](src/Shape.java)
-6. [Garbage Collector](src/GarbageCollector.java)
+6. [Garbage Collector](src/GarbageCollectorTest.java)
 7. [FileReader and FileWriter class implementation](src/ReadWriteFile.java)
 8. [Copying content of one file to another](src/ReadAndWriteFile.java)
 9. [String Tokenizer](src/SumOfInt.java)
