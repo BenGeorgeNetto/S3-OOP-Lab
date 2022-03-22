@@ -19,3 +19,4 @@
 12. [Thread Synchronization](src/ThreadSync.java)
 13. [Calculator - Swing](src/GraphicalCalculator.java)
 14. [Traffic Light - AWT](src/TrafficLight.java)
+15. [Binary Search](src/BinarySearch.java)
